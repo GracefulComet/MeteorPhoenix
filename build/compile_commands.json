@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/randy/Downloads/GameFromScra(p)tch/src/build",
+  "command": "/bin/c++    -g   -Wpedantic -o CMakeFiles/GameFromScrap.dir/Game.cpp.o -c \"/home/randy/Downloads/GameFromScra(p)tch/src/Game.cpp\"",
+  "file": "/home/randy/Downloads/GameFromScra(p)tch/src/Game.cpp"
+},
+{
+  "directory": "/home/randy/Downloads/GameFromScra(p)tch/src/build",
+  "command": "/bin/c++    -g   -Wpedantic -o CMakeFiles/GameFromScrap.dir/Settings.cpp.o -c \"/home/randy/Downloads/GameFromScra(p)tch/src/Settings.cpp\"",
+  "file": "/home/randy/Downloads/GameFromScra(p)tch/src/Settings.cpp"
+},
+{
+  "directory": "/home/randy/Downloads/GameFromScra(p)tch/src/build",
+  "command": "/bin/c++    -g   -Wpedantic -o CMakeFiles/GameFromScrap.dir/Stage.cpp.o -c \"/home/randy/Downloads/GameFromScra(p)tch/src/Stage.cpp\"",
+  "file": "/home/randy/Downloads/GameFromScra(p)tch/src/Stage.cpp"
+},
+{
+  "directory": "/home/randy/Downloads/GameFromScra(p)tch/src/build",
+  "command": "/bin/c++    -g   -Wpedantic -o CMakeFiles/GameFromScrap.dir/Textures.cpp.o -c \"/home/randy/Downloads/GameFromScra(p)tch/src/Textures.cpp\"",
+  "file": "/home/randy/Downloads/GameFromScra(p)tch/src/Textures.cpp"
+},
+{
+  "directory": "/home/randy/Downloads/GameFromScra(p)tch/src/build",
+  "command": "/bin/c++    -g   -Wpedantic -o CMakeFiles/GameFromScrap.dir/Timer.cpp.o -c \"/home/randy/Downloads/GameFromScra(p)tch/src/Timer.cpp\"",
+  "file": "/home/randy/Downloads/GameFromScra(p)tch/src/Timer.cpp"
+},
+{
+  "directory": "/home/randy/Downloads/GameFromScra(p)tch/src/build",
+  "command": "/bin/c++    -g   -Wpedantic -o CMakeFiles/GameFromScrap.dir/main.cpp.o -c \"/home/randy/Downloads/GameFromScra(p)tch/src/main.cpp\"",
+  "file": "/home/randy/Downloads/GameFromScra(p)tch/src/main.cpp"
+}
+]

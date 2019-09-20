@@ -1,0 +1,3 @@
+/home/randy/Downloads/GameFromScra(p)tch/src/build/CMakeFiles/rebuild_cache.dir
+/home/randy/Downloads/GameFromScra(p)tch/src/build/CMakeFiles/GameFromScrap.dir
+/home/randy/Downloads/GameFromScra(p)tch/src/build/CMakeFiles/edit_cache.dir

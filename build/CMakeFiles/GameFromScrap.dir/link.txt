@@ -1,0 +1,1 @@
+/bin/c++  -g   CMakeFiles/GameFromScrap.dir/Game.cpp.o CMakeFiles/GameFromScrap.dir/Settings.cpp.o CMakeFiles/GameFromScrap.dir/Stage.cpp.o CMakeFiles/GameFromScrap.dir/Textures.cpp.o CMakeFiles/GameFromScrap.dir/Timer.cpp.o CMakeFiles/GameFromScrap.dir/main.cpp.o  -o GameFromScrap -lSDL2 -lSDL2_image 
