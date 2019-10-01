@@ -12,8 +12,17 @@ return s_pInstance;
 }
 bool Textures::Load(std::string FileName, SDL_Renderer* pRender)
 {
-  SDL_Surface *pTempSurface = IMG_Load(FileName.c_str());
+//  SDL_Surface *pTempSurface = IMG_Load(FileName.c_str());
+#ifndef __ANDROID__
+std::string  Prefix = "assets/";
+std::string filepath = Prefix + FileName;
+  SDL_RWops* pfile = SDL_RWFromFile(filepath.c_str(), "r");
+#endif
+#ifdef __ANDROID__
+  SDL_RWops* pfile = SDL_RWFromFile(FileName.c_str(), "r");
+#endif
 
+  SDL_Surface *pTempSurface = IMG_Load_RW(pfile, 1);
   if (pTempSurface == 0) {
     return false;
   
@@ -87,20 +96,41 @@ unsigned int Textures::GetTextureID(std::string FileName){
 
 const TileSet LoadTileSet(std::string FileName , SDL_Renderer* Renderer){
   TileSet Export;
-  std::string TextureFileName;
-  std::ifstream tileimport(FileName);
-  if(tileimport.is_open()){
-  
-  tileimport >>  TextureFileName >> Export.TileWidth >> 
-  Export.TileHeight >> Export.NumOfColums >> Export.NumOfRows;
-  std::cout << "Loaded Tile Data from " << FileName << std::endl;
-  tileimport.close();
-  Export.TextureID = gfx2D::Instance()->CheckedTextureLoad(TextureFileName, Renderer);
 
-  }else{
-    tileimport.close();
+
+
+  std::string TextureFileName;
+//  std::ifstream tileimport(FileName);
+  SDL_RWops* pfile;
+  pfile = SDL_RWFromFile(FileName.c_str(), "r");
+
+  if(pfile != NULL){
+    std::cout << "tilesetfile opened with RWops " << std::endl;
+    char buffer[256];
+    SDL_RWread(pfile,buffer, sizeof(buffer), 1);
+    std::string tileimport = buffer;
+    SDL_FreeRW(pfile);
+
+    std::stringstream TileParce;
+    TileParce << tileimport;
+    TileParce >> TextureFileName >> Export.TileWidth >> Export.TileHeight >>Export.NumOfColums >> Export.NumOfRows;
+    std::cout << "Loaded Tile Data from " << FileName <<std::endl;
+    Export.TextureID = gfx2D::Instance()->CheckedTextureLoad(TextureFileName, Renderer);
+
+
+  }   else{
     std::cout << "failed to load TileSet " << FileName << std::endl;
   }
+
+
+
+  // if(tileimport.is_open()){
+  
+  // tileimport >>  TextureFileName >> Export.TileWidth >> 
+  // Export.TileHeight >> Export.NumOfColums >> Export.NumOfRows;
+  // std::cout << "Loaded Tile Data from " << FileName << std::endl;
+  // tileimport.close();
+ 
 
 
 
@@ -128,6 +158,7 @@ return true;
 if(GetTileSetID(FileName) > 0){
 return false;
 }
+return false;
 }
 
 int Textures::getTCollums(unsigned int TilesetID){

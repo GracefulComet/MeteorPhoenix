@@ -3,6 +3,12 @@
 #include <sstream>
 #include <fstream>
 #include <string>
+#ifndef __ANDROID__
+#include "SDL2/SDL.h"
+#endif
+#ifdef __ANDROID__
+#include "SDL.h"
+#endif
 
 class Settings{
     public:

@@ -1,9 +1,15 @@
 #include"Stage.hpp"
 
 void Stage::init(SDL_Renderer* render){
-
+#ifdef __ANDROID__
+gfx2D::Instance()->AddTileSet("basic.tiles", render);
+unsigned int Ref = gfx2D::Instance()->GetTileSetID("basic.tiles");
+#endif
+#ifndef __ANDROID__
 gfx2D::Instance()->AddTileSet("assets/basic.tiles", render);
 unsigned int Ref = gfx2D::Instance()->GetTileSetID("assets/basic.tiles");
+#endif
+
 for(int x = 0; x < 60; x++ ){
     for (int y =0; y < 30; y++){
         Bg1[x][y].TileSetid = Ref;

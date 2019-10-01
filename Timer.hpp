@@ -1,6 +1,11 @@
 
 #pragma once
+#ifndef __ANDROID__
 #include <SDL2/SDL.h>
+#endif
+#ifdef __ANDROID__
+#include <SDL.h>
+#endif
 
 class TimerF {
 public:

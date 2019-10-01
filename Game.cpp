@@ -1,5 +1,5 @@
 #include "Game.hpp"
-
+#include "Files.hpp"
 
 // Constructor  and initilizer list for the game object. Initializes the window and renderer
 Game::Game(): 
@@ -42,6 +42,7 @@ void Game::update(){
 
 void Game::testInit(){
 TestStage.init(m_Render);
+
 }
 
 void Game::testUpdate(){

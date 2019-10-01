@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = "/home/randy/Downloads/GameFromScra(p)tch/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/randy/Downloads/GameFromScra(p)tch/src/build"
+CMAKE_BINARY_DIR = "/home/randy/Downloads/GameFromScra(p)tch/src"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/GameFromScrap.dir/depend.make
@@ -58,82 +58,82 @@ include CMakeFiles/GameFromScrap.dir/progress.make
 include CMakeFiles/GameFromScrap.dir/flags.make
 
 CMakeFiles/GameFromScrap.dir/Game.cpp.o: CMakeFiles/GameFromScrap.dir/flags.make
-CMakeFiles/GameFromScrap.dir/Game.cpp.o: ../Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/randy/Downloads/GameFromScra(p)tch/src/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GameFromScrap.dir/Game.cpp.o"
-	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameFromScrap.dir/Game.cpp.o -c "/home/randy/Downloads/GameFromScra(p)tch/src/Game.cpp"
+CMakeFiles/GameFromScrap.dir/Game.cpp.o: Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/randy/Downloads/GameFromScra(p)tch/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GameFromScrap.dir/Game.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameFromScrap.dir/Game.cpp.o -c "/home/randy/Downloads/GameFromScra(p)tch/src/Game.cpp"
 
 CMakeFiles/GameFromScrap.dir/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameFromScrap.dir/Game.cpp.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/randy/Downloads/GameFromScra(p)tch/src/Game.cpp" > CMakeFiles/GameFromScrap.dir/Game.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/randy/Downloads/GameFromScra(p)tch/src/Game.cpp" > CMakeFiles/GameFromScrap.dir/Game.cpp.i
 
 CMakeFiles/GameFromScrap.dir/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameFromScrap.dir/Game.cpp.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/randy/Downloads/GameFromScra(p)tch/src/Game.cpp" -o CMakeFiles/GameFromScrap.dir/Game.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/randy/Downloads/GameFromScra(p)tch/src/Game.cpp" -o CMakeFiles/GameFromScrap.dir/Game.cpp.s
 
 CMakeFiles/GameFromScrap.dir/Settings.cpp.o: CMakeFiles/GameFromScrap.dir/flags.make
-CMakeFiles/GameFromScrap.dir/Settings.cpp.o: ../Settings.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/randy/Downloads/GameFromScra(p)tch/src/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GameFromScrap.dir/Settings.cpp.o"
-	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameFromScrap.dir/Settings.cpp.o -c "/home/randy/Downloads/GameFromScra(p)tch/src/Settings.cpp"
+CMakeFiles/GameFromScrap.dir/Settings.cpp.o: Settings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/randy/Downloads/GameFromScra(p)tch/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GameFromScrap.dir/Settings.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameFromScrap.dir/Settings.cpp.o -c "/home/randy/Downloads/GameFromScra(p)tch/src/Settings.cpp"
 
 CMakeFiles/GameFromScrap.dir/Settings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameFromScrap.dir/Settings.cpp.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/randy/Downloads/GameFromScra(p)tch/src/Settings.cpp" > CMakeFiles/GameFromScrap.dir/Settings.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/randy/Downloads/GameFromScra(p)tch/src/Settings.cpp" > CMakeFiles/GameFromScrap.dir/Settings.cpp.i
 
 CMakeFiles/GameFromScrap.dir/Settings.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameFromScrap.dir/Settings.cpp.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/randy/Downloads/GameFromScra(p)tch/src/Settings.cpp" -o CMakeFiles/GameFromScrap.dir/Settings.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/randy/Downloads/GameFromScra(p)tch/src/Settings.cpp" -o CMakeFiles/GameFromScrap.dir/Settings.cpp.s
 
 CMakeFiles/GameFromScrap.dir/Stage.cpp.o: CMakeFiles/GameFromScrap.dir/flags.make
-CMakeFiles/GameFromScrap.dir/Stage.cpp.o: ../Stage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/randy/Downloads/GameFromScra(p)tch/src/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GameFromScrap.dir/Stage.cpp.o"
-	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameFromScrap.dir/Stage.cpp.o -c "/home/randy/Downloads/GameFromScra(p)tch/src/Stage.cpp"
+CMakeFiles/GameFromScrap.dir/Stage.cpp.o: Stage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/randy/Downloads/GameFromScra(p)tch/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GameFromScrap.dir/Stage.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameFromScrap.dir/Stage.cpp.o -c "/home/randy/Downloads/GameFromScra(p)tch/src/Stage.cpp"
 
 CMakeFiles/GameFromScrap.dir/Stage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameFromScrap.dir/Stage.cpp.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/randy/Downloads/GameFromScra(p)tch/src/Stage.cpp" > CMakeFiles/GameFromScrap.dir/Stage.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/randy/Downloads/GameFromScra(p)tch/src/Stage.cpp" > CMakeFiles/GameFromScrap.dir/Stage.cpp.i
 
 CMakeFiles/GameFromScrap.dir/Stage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameFromScrap.dir/Stage.cpp.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/randy/Downloads/GameFromScra(p)tch/src/Stage.cpp" -o CMakeFiles/GameFromScrap.dir/Stage.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/randy/Downloads/GameFromScra(p)tch/src/Stage.cpp" -o CMakeFiles/GameFromScrap.dir/Stage.cpp.s
 
 CMakeFiles/GameFromScrap.dir/Textures.cpp.o: CMakeFiles/GameFromScrap.dir/flags.make
-CMakeFiles/GameFromScrap.dir/Textures.cpp.o: ../Textures.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/randy/Downloads/GameFromScra(p)tch/src/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GameFromScrap.dir/Textures.cpp.o"
-	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameFromScrap.dir/Textures.cpp.o -c "/home/randy/Downloads/GameFromScra(p)tch/src/Textures.cpp"
+CMakeFiles/GameFromScrap.dir/Textures.cpp.o: Textures.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/randy/Downloads/GameFromScra(p)tch/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GameFromScrap.dir/Textures.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameFromScrap.dir/Textures.cpp.o -c "/home/randy/Downloads/GameFromScra(p)tch/src/Textures.cpp"
 
 CMakeFiles/GameFromScrap.dir/Textures.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameFromScrap.dir/Textures.cpp.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/randy/Downloads/GameFromScra(p)tch/src/Textures.cpp" > CMakeFiles/GameFromScrap.dir/Textures.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/randy/Downloads/GameFromScra(p)tch/src/Textures.cpp" > CMakeFiles/GameFromScrap.dir/Textures.cpp.i
 
 CMakeFiles/GameFromScrap.dir/Textures.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameFromScrap.dir/Textures.cpp.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/randy/Downloads/GameFromScra(p)tch/src/Textures.cpp" -o CMakeFiles/GameFromScrap.dir/Textures.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/randy/Downloads/GameFromScra(p)tch/src/Textures.cpp" -o CMakeFiles/GameFromScrap.dir/Textures.cpp.s
 
 CMakeFiles/GameFromScrap.dir/Timer.cpp.o: CMakeFiles/GameFromScrap.dir/flags.make
-CMakeFiles/GameFromScrap.dir/Timer.cpp.o: ../Timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/randy/Downloads/GameFromScra(p)tch/src/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GameFromScrap.dir/Timer.cpp.o"
-	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameFromScrap.dir/Timer.cpp.o -c "/home/randy/Downloads/GameFromScra(p)tch/src/Timer.cpp"
+CMakeFiles/GameFromScrap.dir/Timer.cpp.o: Timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/randy/Downloads/GameFromScra(p)tch/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GameFromScrap.dir/Timer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameFromScrap.dir/Timer.cpp.o -c "/home/randy/Downloads/GameFromScra(p)tch/src/Timer.cpp"
 
 CMakeFiles/GameFromScrap.dir/Timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameFromScrap.dir/Timer.cpp.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/randy/Downloads/GameFromScra(p)tch/src/Timer.cpp" > CMakeFiles/GameFromScrap.dir/Timer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/randy/Downloads/GameFromScra(p)tch/src/Timer.cpp" > CMakeFiles/GameFromScrap.dir/Timer.cpp.i
 
 CMakeFiles/GameFromScrap.dir/Timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameFromScrap.dir/Timer.cpp.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/randy/Downloads/GameFromScra(p)tch/src/Timer.cpp" -o CMakeFiles/GameFromScrap.dir/Timer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/randy/Downloads/GameFromScra(p)tch/src/Timer.cpp" -o CMakeFiles/GameFromScrap.dir/Timer.cpp.s
 
 CMakeFiles/GameFromScrap.dir/main.cpp.o: CMakeFiles/GameFromScrap.dir/flags.make
-CMakeFiles/GameFromScrap.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/randy/Downloads/GameFromScra(p)tch/src/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GameFromScrap.dir/main.cpp.o"
-	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameFromScrap.dir/main.cpp.o -c "/home/randy/Downloads/GameFromScra(p)tch/src/main.cpp"
+CMakeFiles/GameFromScrap.dir/main.cpp.o: main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/randy/Downloads/GameFromScra(p)tch/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GameFromScrap.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameFromScrap.dir/main.cpp.o -c "/home/randy/Downloads/GameFromScra(p)tch/src/main.cpp"
 
 CMakeFiles/GameFromScrap.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameFromScrap.dir/main.cpp.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/randy/Downloads/GameFromScra(p)tch/src/main.cpp" > CMakeFiles/GameFromScrap.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/randy/Downloads/GameFromScra(p)tch/src/main.cpp" > CMakeFiles/GameFromScrap.dir/main.cpp.i
 
 CMakeFiles/GameFromScrap.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameFromScrap.dir/main.cpp.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/randy/Downloads/GameFromScra(p)tch/src/main.cpp" -o CMakeFiles/GameFromScrap.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/randy/Downloads/GameFromScra(p)tch/src/main.cpp" -o CMakeFiles/GameFromScrap.dir/main.cpp.s
 
 # Object files for target GameFromScrap
 GameFromScrap_OBJECTS = \
@@ -155,7 +155,7 @@ GameFromScrap: CMakeFiles/GameFromScrap.dir/Timer.cpp.o
 GameFromScrap: CMakeFiles/GameFromScrap.dir/main.cpp.o
 GameFromScrap: CMakeFiles/GameFromScrap.dir/build.make
 GameFromScrap: CMakeFiles/GameFromScrap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/randy/Downloads/GameFromScra(p)tch/src/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable GameFromScrap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/randy/Downloads/GameFromScra(p)tch/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable GameFromScrap"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GameFromScrap.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -168,6 +168,6 @@ CMakeFiles/GameFromScrap.dir/clean:
 .PHONY : CMakeFiles/GameFromScrap.dir/clean
 
 CMakeFiles/GameFromScrap.dir/depend:
-	cd "/home/randy/Downloads/GameFromScra(p)tch/src/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/randy/Downloads/GameFromScra(p)tch/src" "/home/randy/Downloads/GameFromScra(p)tch/src" "/home/randy/Downloads/GameFromScra(p)tch/src/build" "/home/randy/Downloads/GameFromScra(p)tch/src/build" "/home/randy/Downloads/GameFromScra(p)tch/src/build/CMakeFiles/GameFromScrap.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/randy/Downloads/GameFromScra(p)tch/src" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/randy/Downloads/GameFromScra(p)tch/src" "/home/randy/Downloads/GameFromScra(p)tch/src" "/home/randy/Downloads/GameFromScra(p)tch/src" "/home/randy/Downloads/GameFromScra(p)tch/src" "/home/randy/Downloads/GameFromScra(p)tch/src/CMakeFiles/GameFromScrap.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/GameFromScrap.dir/depend
 

@@ -1,5 +1,11 @@
 #pragma once
+#ifdef __ANDROID__
+#include"SDL_image.h"
+#endif
+
+#ifndef __ANDROID__
 #include"SDL2/SDL_image.h"
+#endif
 #include <iostream>
 #include <string>
 #include <map>
@@ -19,7 +25,7 @@ int NumOfRows;
 unsigned int TextureID;
 
 };
-
+ 
 struct Tile{
 unsigned int TileSetid = 0;
 float xPos =0;
