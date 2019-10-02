@@ -13,12 +13,20 @@ std::string getFileAsString(std::string FileName){
     std::string FileAndPath = FilePrefix+FileName;
 
     SDL_RWops * pFile = SDL_RWFromFile( FileAndPath.c_str() , "r" );
-        char buffer[260] = {NULL};
-        SDL_RWread(pFile, &buffer,sizeof(buffer),1);
+    if(pFile != NULL){
+        int filesize = pFile->size(pFile);
+        char* cbuffer = new char[filesize];
+        SDL_RWread(pFile, cbuffer,sizeof(char) * filesize ,1);
         SDL_RWclose(pFile);
-        std::string sbuffer = buffer;
-
+        std::string sbuffer = cbuffer;
+        delete[](cbuffer);
         return sbuffer; 
+    }else{
+        std::string sBuffer = {NULL};
+        return sBuffer;
+    }
+
+
 
 
 }

@@ -12,7 +12,7 @@
 
 # =============================================================================
 # Project: GameFromScrap
-# Configuration: RelWithDebInfo
+# Configuration: Debug
 # =============================================================================
 
 #############################################
@@ -52,43 +52,43 @@ build cmake_object_order_depends_target_GameFromScrap: phony || CMakeFiles/GameF
 
 build CMakeFiles/GameFromScrap.dir/Files.cpp.o: CXX_COMPILER__GameFromScrap ../Files.cpp || cmake_object_order_depends_target_GameFromScrap
   DEP_FILE = CMakeFiles/GameFromScrap.dir/Files.cpp.o.d
-  FLAGS = -O2 -g -DNDEBUG   -Wpedantic
+  FLAGS = -g   -Wpedantic
   OBJECT_DIR = CMakeFiles/GameFromScrap.dir
   OBJECT_FILE_DIR = CMakeFiles/GameFromScrap.dir
 
 build CMakeFiles/GameFromScrap.dir/Game.cpp.o: CXX_COMPILER__GameFromScrap ../Game.cpp || cmake_object_order_depends_target_GameFromScrap
   DEP_FILE = CMakeFiles/GameFromScrap.dir/Game.cpp.o.d
-  FLAGS = -O2 -g -DNDEBUG   -Wpedantic
+  FLAGS = -g   -Wpedantic
   OBJECT_DIR = CMakeFiles/GameFromScrap.dir
   OBJECT_FILE_DIR = CMakeFiles/GameFromScrap.dir
 
 build CMakeFiles/GameFromScrap.dir/Settings.cpp.o: CXX_COMPILER__GameFromScrap ../Settings.cpp || cmake_object_order_depends_target_GameFromScrap
   DEP_FILE = CMakeFiles/GameFromScrap.dir/Settings.cpp.o.d
-  FLAGS = -O2 -g -DNDEBUG   -Wpedantic
+  FLAGS = -g   -Wpedantic
   OBJECT_DIR = CMakeFiles/GameFromScrap.dir
   OBJECT_FILE_DIR = CMakeFiles/GameFromScrap.dir
 
 build CMakeFiles/GameFromScrap.dir/Stage.cpp.o: CXX_COMPILER__GameFromScrap ../Stage.cpp || cmake_object_order_depends_target_GameFromScrap
   DEP_FILE = CMakeFiles/GameFromScrap.dir/Stage.cpp.o.d
-  FLAGS = -O2 -g -DNDEBUG   -Wpedantic
+  FLAGS = -g   -Wpedantic
   OBJECT_DIR = CMakeFiles/GameFromScrap.dir
   OBJECT_FILE_DIR = CMakeFiles/GameFromScrap.dir
 
 build CMakeFiles/GameFromScrap.dir/Textures.cpp.o: CXX_COMPILER__GameFromScrap ../Textures.cpp || cmake_object_order_depends_target_GameFromScrap
   DEP_FILE = CMakeFiles/GameFromScrap.dir/Textures.cpp.o.d
-  FLAGS = -O2 -g -DNDEBUG   -Wpedantic
+  FLAGS = -g   -Wpedantic
   OBJECT_DIR = CMakeFiles/GameFromScrap.dir
   OBJECT_FILE_DIR = CMakeFiles/GameFromScrap.dir
 
 build CMakeFiles/GameFromScrap.dir/Timer.cpp.o: CXX_COMPILER__GameFromScrap ../Timer.cpp || cmake_object_order_depends_target_GameFromScrap
   DEP_FILE = CMakeFiles/GameFromScrap.dir/Timer.cpp.o.d
-  FLAGS = -O2 -g -DNDEBUG   -Wpedantic
+  FLAGS = -g   -Wpedantic
   OBJECT_DIR = CMakeFiles/GameFromScrap.dir
   OBJECT_FILE_DIR = CMakeFiles/GameFromScrap.dir
 
 build CMakeFiles/GameFromScrap.dir/main.cpp.o: CXX_COMPILER__GameFromScrap ../main.cpp || cmake_object_order_depends_target_GameFromScrap
   DEP_FILE = CMakeFiles/GameFromScrap.dir/main.cpp.o.d
-  FLAGS = -O2 -g -DNDEBUG   -Wpedantic
+  FLAGS = -g   -Wpedantic
   OBJECT_DIR = CMakeFiles/GameFromScrap.dir
   OBJECT_FILE_DIR = CMakeFiles/GameFromScrap.dir
 
@@ -101,7 +101,7 @@ build CMakeFiles/GameFromScrap.dir/main.cpp.o: CXX_COMPILER__GameFromScrap ../ma
 # Link the executable GameFromScrap
 
 build GameFromScrap: CXX_EXECUTABLE_LINKER__GameFromScrap CMakeFiles/GameFromScrap.dir/Files.cpp.o CMakeFiles/GameFromScrap.dir/Game.cpp.o CMakeFiles/GameFromScrap.dir/Settings.cpp.o CMakeFiles/GameFromScrap.dir/Stage.cpp.o CMakeFiles/GameFromScrap.dir/Textures.cpp.o CMakeFiles/GameFromScrap.dir/Timer.cpp.o CMakeFiles/GameFromScrap.dir/main.cpp.o
-  FLAGS = -O2 -g -DNDEBUG
+  FLAGS = -g
   LINK_LIBRARIES = -lSDL2 -lSDL2_image
   OBJECT_DIR = CMakeFiles/GameFromScrap.dir
   POST_BUILD = :

@@ -42,7 +42,6 @@ void Game::update(){
 
 void Game::testInit(){
 TestStage.init(m_Render);
-
 }
 
 void Game::testUpdate(){

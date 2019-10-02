@@ -9,6 +9,7 @@
 #ifdef __ANDROID__
 #include "SDL.h"
 #endif
+#include "Files.hpp"
 
 class Settings{
     public:
