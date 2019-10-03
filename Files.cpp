@@ -22,7 +22,8 @@ std::string getFileAsString(std::string FileName){
         delete[](cbuffer);
         return sbuffer; 
     }else{
-        std::string sBuffer = {NULL};
+        std::string sBuffer;
+        sBuffer.clear();
         return sBuffer;
     }
 

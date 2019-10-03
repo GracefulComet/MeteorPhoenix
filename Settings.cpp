@@ -15,7 +15,7 @@ std::string loading;
 
 loading = getFileAsString("Settings.ini");
 
-    if(loading != std::string{NULL}){
+    if(!loading.empty() ){
         std::stringstream ss;
         ss << loading;
         ss >> m_width >> m_height >> m_FullScreen >> m_scale ;
