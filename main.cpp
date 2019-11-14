@@ -16,7 +16,7 @@ int main(int argc , char *argv[]){
     DaGame.GameLoop();
   //  DaGame.~Game();
     
-   
+  SDL_Quit();
 
     return 0;
 }

@@ -8,6 +8,7 @@
 #include "Settings.hpp"
 #include "Timer.hpp"
 #include "Stage.hpp"
+#include "Input.hpp"
 
 class Game{
 
@@ -28,6 +29,7 @@ class Game{
     SDL_Renderer*  m_Render;
     bool IsOpened;
     SDL_Event evnt;
+    Input m_Input;
     Stage TestStage;
     TimerF TimerTest;
     TimerF FrameTimer;

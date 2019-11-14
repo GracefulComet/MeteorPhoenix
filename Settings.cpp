@@ -26,8 +26,15 @@ loading = getFileAsString("Settings.ini");
         std::cout << "settings did not open" << std::endl;
         SDL_DisplayMode display;
         if( SDL_GetCurrentDisplayMode(0,&display)  == 0  ){
-            m_width = display.w;
+            //trys to get devices display settings and creates a window 
+            #ifndef __ANDROID__
+            m_width = display.w; 
             m_height= display.h;
+            #endif
+            #ifdef __ANDROID__
+            m_height =display.w; // defaults to widescreen when on android
+            m_width =display.h;  // TODO : check if this works on all/more devices
+            #endif
         }else{
             m_width = 800;
             m_height= 600;
